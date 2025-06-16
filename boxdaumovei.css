@@ -1,0 +1,59 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("image/background1.jpg"); 
+	background-size: cover;
+	
+}
+.clearfix{
+	clear: both;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 320px;
+	transform: translate(-50%,-50%);
+}
+.box h1{
+	width: 312px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+	border-bottom: 6px solid #0FF23D;
+	padding: 10px 0;
+	margin-bottom: 50px;
+	float: left;
+}
+.textbox{
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px 0;
+	font-size: 40px;
+	border-bottom: 2px solid  #0FF23D;
+}
+.textbox i{
+	color: white;
+	font-size: 30px;
+}
+.textbox input{
+	background: none;
+	margin-left: 15px;
+	border: none;
+	color: black;
+	font-size: 20px;  
+}
+.btn{
+	width: 100%;
+	background: none;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	margin:15px 0;
+	padding: 12px 0;
+	border-bottom: 3px solid #0FF23D;
+	cursor: pointer; 
+}
+.btn:hover{
+	background:#000; 
+}
